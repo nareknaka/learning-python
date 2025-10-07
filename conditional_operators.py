@@ -1,0 +1,14 @@
+user_data = int(input("Enter a number: "))
+
+isHappy = False
+if isHappy: # == True:
+    print("User is happy")
+elif user_data == 5:    
+    print("Number is 5")
+else:
+    print("User is unhappy")
+
+if user_data != 5:
+    print("We are here")
+    if user_data > 6:
+        print("Number is bigger than 5")
