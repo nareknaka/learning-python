@@ -8,20 +8,50 @@
 
 
 
-numbers = [5, 2, 7]
 
-numbers.append(100)
-numbers.insert(1, True)
 
-b = [5, 6, 8]
-numbers.extend(b)
-# numbers.reverse()
-numbers.sort
 
-numbers.pop(1)
-numbers.remove(6)
+# numbers = [5, 2, 7]
 
-# numbers.clear() 
+# numbers.append(100)
+# numbers.insert(1, True)
 
-# print(numbers.count(True))
-print(len(numbers))
+# b = [5, 6, 8]
+# numbers.extend(b)
+# # numbers.reverse()
+# numbers.sort
+
+# numbers.pop(1)
+# numbers.remove(6)
+
+# # numbers.clear() 
+
+# # print(numbers.count(True))
+# print(len(numbers))
+
+
+
+
+
+
+
+# nums = [5, 2, 7, "50", False]
+
+# for el in nums:
+#     el *= 2
+#     print(el)
+
+
+
+n = int(input("Enter length: "))
+
+user_list = []
+
+i = 0
+while i < n:
+    string = "Enter element #" + str(i + 1) + ": "
+    user_list.append(input(string))
+    i += 1
+
+print(user_list)
+
