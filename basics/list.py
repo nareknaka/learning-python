@@ -43,32 +43,15 @@
 
 
 
-# n = int(input("Enter length: "))
+n = int(input("Enter length: "))
 
-# user_list = []
+user_list = []
 
-# i = 0
-# while i < n:
-#     string = "Enter element #" + str(i + 1) + ": "
-#     user_list.append(input(string))
-#     i += 1
+i = 0
+while i < n:
+    string = "Enter element #" + str(i + 1) + ": "
+    user_list.append(input(string))
+    i += 1
 
-# print(user_list)
+print(user_list)
 
-
-
-
-
-
-
-word = 'FootBAll, basketball, skate'
-# print(word.count('l'))
-# print(word.capitalize())
-# print(word.find('pr'))
-hobby = word.split(', ')
-
-for i in range(len(hobby)):
-    hobby[i] = hobby[i].capitalize()
-
-result = ", ".join(hobby)
-print(result)
