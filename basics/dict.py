@@ -1,2 +1,8 @@
 country = {'code': 'RU', 'name': 'Russian', 'population': 144}
-print(country['name'])
+# country = dict(code='RU', name= 'Russian')
+# print(country['name'])
+
+# print(country.items())
+
+for key, value in country.items():
+    print(key, "-", value)
