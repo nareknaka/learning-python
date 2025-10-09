@@ -1,14 +1,16 @@
-country = {'code': 'RU', 'name': 'Russian', 'population': 144}
 
 
+person = {
+    'user_1': {
+        'first_name': 'John',
+        'last_name': 'Marley',
+        'age': 45,
+        'address': ('Moscow', 'Some Street', '45'),
+        'grades': {'math': 5, 'physics': 3}
+    },
+    'user_2': {
+        
+    }
+}
 
-
-
-
-
-
-# print (country.get('name'))
-# country.clear()
-# country.pop('name')
-country.popitem()
-print(country)
+print(person['user_1']['address'])
