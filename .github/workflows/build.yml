@@ -2,9 +2,9 @@ name: Build Python Binaries
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, ngrigoryan/learning ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, ngrigoryan/learning ]
 
 jobs:
   build:
