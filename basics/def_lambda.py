@@ -33,3 +33,17 @@ for el in nums1:
         min = el
 
 print(min)
+
+
+
+
+print(min)
+
+nums2 = [5.4, 7.2, 2.3, 2.1, 9.4, 4.2]
+
+min2 = nums2[0]
+for el in nums2:
+    if el < min2:
+        min2 = el
+
+print(min2)
