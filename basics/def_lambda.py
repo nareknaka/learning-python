@@ -22,24 +22,30 @@
 
 
 
-def minimal(l):
-    min_number = l[0]
-    for el in l:
-        if el < min_number:
-            min_number = el
+# def minimal(l):
+#     min_number = l[0]
+#     for el in l:
+#         if el < min_number:
+#             min_number = el
     
-    print(min_number)
+#     print(min_number)
 
 
-nums1 = [5, 7, 2, 9, 4]
+# nums1 = [5, 7, 2, 9, 4]
 
-minimal(nums1)
-
-
+# minimal(nums1)
 
 
-print(min)
 
-nums2 = [5.4, 7.2, 2.3, 2.1, 9.4, 4.2]
 
-minimal(nums2)
+# print(min)
+
+# nums2 = [5.4, 7.2, 2.3, 2.1, 9.4, 4.2]
+
+# minimal(nums2)
+
+
+
+func = lambda x, y: x * y
+res = func(5, 2)
+print(res)
